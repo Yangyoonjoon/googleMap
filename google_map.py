@@ -6,6 +6,7 @@ def googleMap(place, w, h):
     URL = f'https://maps.googleapis.com/maps/api/staticmap?'
     PLACE = f'center={place}'
     SIZE = '&size=640x640&scale=2'
+    # 키 필요
     KEY = '&key='
 
     MSG = URL + PLACE + SIZE + KEY
